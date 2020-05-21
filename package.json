@@ -1,7 +1,7 @@
 {
-  "name": "winston-modern-syslog",
-  "version": "2.0.0",
-  "description": "A syslog transport for winston using the modern-syslog package",
+  "name": "winston-modern-syslog-safely",
+  "version": "2.0.1",
+  "description": "A syslog transport for winston using the modern-syslog package with the added protection of CircularJSON instead of JSON.stringify",
   "main": "lib/winston-modern-syslog.js",
   "scripts": {
     "test": "mocha test"
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/skybet/winston-modern-syslog",
   "dependencies": {
+    "circular-json": "^0.5.9",
     "modern-syslog": "^1.1.2"
   },
   "devDependencies": {
