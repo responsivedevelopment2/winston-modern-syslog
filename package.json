@@ -1,14 +1,14 @@
 {
-  "name": "winston-modern-syslog-safely",
+  "name": "winston-modern-syslog-with-circular-reference-protection",
   "version": "3.0.0",
-  "description": "A syslog transport for winston using the modern-syslog package safely",
+  "description": "A syslog transport for winston using the modern-syslog package with circular reference protection",
   "main": "lib/winston-modern-syslog.js",
   "scripts": {
     "test": "mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skybet/winston-modern-syslog"
+    "url": "https://github.com/responsivedevelopment2/winston-modern-syslog"
   },
   "keywords": [
     "winston",
@@ -21,10 +21,11 @@
   "author": "Alex Silcock",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skybet/winston-modern-syslog/issues"
+    "url": "https://github.com/responsivedevelopment2/winston-modern-syslog/issues"
   },
-  "homepage": "https://github.com/skybet/winston-modern-syslog",
+  "homepage": "https://github.com/responsivedevelopment2/winston-modern-syslog",
   "dependencies": {
+    "circular-json": "^0.5.9",
     "modern-syslog": "^1.1.2"
   },
   "devDependencies": {
