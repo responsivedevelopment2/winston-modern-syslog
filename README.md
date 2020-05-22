@@ -7,7 +7,7 @@ A syslog transport for [winston](https://www.npmjs.com/package/winston) that is 
 ## Installation
 
 ```
-npm install --save winston-modern-syslog
+npm install --save winston-modern-syslog-with-circular-reference-protection
 ```
 
 ## Usage
